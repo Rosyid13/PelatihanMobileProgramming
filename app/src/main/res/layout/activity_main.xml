@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--   TAMPILKAN VIEW IMAGEVIEW DI TENGAH LAYOUT  MENGGUNAKAN-->
-<!--    LAYOUT LINEARLAYOUT-->
+    <!--   TAMPILKAN VIEW IMAGEVIEW DI TENGAH LAYOUT  MENGGUNAKAN-->
+    <!--    LAYOUT LINEARLAYOUT-->
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/mobile" />
 
-<!--    langkah-langkahnya-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="MOBILE AMCC"
+        android:textColor="@color/colorblue"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <!--    langkah-langkahnya-->
 
-<!--    1. Rubah layout contraint menjadi linear layout
-        2. tambahkan view ImageView untuk menampilkan gambar
-        3. dan tammpilka gambar di tengah layout
-                                                        -->
+    <!--    1. Rubah layout contraint menjadi linear layout
+            2. tambahkan view ImageView untuk menampilkan gambar
+            3. dan tammpilka gambar di tengah layout
+                                                            -->
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
